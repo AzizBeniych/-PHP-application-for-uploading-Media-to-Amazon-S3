@@ -1,7 +1,7 @@
 <!-- YOU NEED REPLACE :
 Fontawsom Kit LINK
 YOURAWS_ACCESS_KEY_ID
-YOURAWS_ACCESS_KEY_KEY
+YOURAWS_ACCESS_KEY
 YOUR-s3-buck
 FOLDERNAME/YOUR-s3-buck
 -->
@@ -16,7 +16,7 @@ require 'vendor/autoload.php';
 
 // Set your AWS access key and secret key
 putenv('AWS_ACCESS_KEY_ID=YOURAWS_ACCESS_KEY_ID');
-putenv('AWS_SECRET_ACCESS_KEY=YOURAWS_ACCESS_KEY_KEY');
+putenv('AWS_SECRET_ACCESS_KEY=YOURAWS_SECRET_ACCESS_KEY_KEY');
 
 use Aws\S3\S3Client;
 use Aws\S3\Exception\S3Exception;
